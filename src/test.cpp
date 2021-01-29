@@ -109,7 +109,7 @@ int main () {
 
     // Add R1CS constraints to protoboard
 
-    // x*x = sym_1
+    // x1*w1 = sym_1
     pb.add_r1cs_constraint(r1cs_constraint<FieldT>(x1, w1, sym_1));
     pb.add_r1cs_constraint(r1cs_constraint<FieldT>(x2, w2, sym_2));
     pb.add_r1cs_constraint(r1cs_constraint<FieldT>(x3, w3, sym_3));
