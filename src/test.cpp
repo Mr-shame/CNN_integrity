@@ -147,7 +147,7 @@ int main () {
     pb.val(x12) = 1;
     pb.val(x13) = 0;
     
-    pb.val(w1) = 126;
+    pb.val(w1) = -126;
     pb.val(w2) = 49;
     pb.val(w3) = -48;
     pb.val(w4) = 3450;
@@ -161,7 +161,7 @@ int main () {
     pb.val(w12) = 10;
     pb.val(w13) = -489;
     
-    pb.val(sym_1) = 126;
+    pb.val(sym_1) = -126;
     pb.val(sym_2) = 0;
     pb.val(sym_3) = 0;
     pb.val(sym_4) = 3450;
